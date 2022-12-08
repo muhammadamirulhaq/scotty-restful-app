@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               scotty-restful-app
+version:            0.1.0.0
+synopsis:
+
+-- A longer description of the package.
+-- description:
+homepage:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            BSD-2-Clause
+license-file:       LICENSE
+author:             Muhammad Amirul Haq
+maintainer:         muhammadamirulhaq66@gmail.com
+
+-- A copyright notice.
+-- copyright:
+category:           Web
+extra-source-files: CHANGELOG.md
+
+executable personal-website
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.3.0, scotty, mysql-haskell, aeson, io-streams
+
+    -- Directories containing source files.
+    -- hs-source-dirs:
+    default-language: Haskell2010
