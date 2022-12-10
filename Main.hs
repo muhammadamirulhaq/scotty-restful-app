@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Test where
+module Main where
 
 import Web.Scotty
 import Data.Aeson (FromJSON, ToJSON, object, (.=), Value(..), toJSON, parseJSON, (.:))
