@@ -9,7 +9,7 @@ homepage:
 
 -- A URL where users can report bugs.
 -- bug-reports:
-license:            BSD-2-Clause
+license:            GPL-3.0-only
 license-file:       LICENSE
 author:             Muhammad Amirul Haq
 maintainer:         muhammadamirulhaq66@gmail.com
